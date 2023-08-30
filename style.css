@@ -1,0 +1,55 @@
+body{
+    background-image: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(90, 90, 189);
+    margin: 20px 0px;
+
+}
+.app-main{
+    width: 600px;
+    text-align: center;
+    background-color: rgb(193, 248, 230);
+    border-radius: 50px;
+    padding: 15px 0px;
+    
+}
+.inputbox{
+    width: 50%;
+    height: 40px;
+    font-size: 25px;
+    border: 1px rgb(55, 182, 241) solid;
+    background-color: rgb(221, 215, 215);
+    color:rgb(11, 160, 230) ;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px 0px;
+    font-family:'Times New Roman', Times;
+}
+.location-details,.weater-status{
+    font-size: 18px;
+    font-weight: 500;
+    color: azure;   
+}
+.temp{
+    font-size: 50px;
+    margin: 10px;
+}
+.weather-body{
+    background: linear-gradient(180deg, rgb(4, 1, 61) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50px;
+    display: none;
+}
+.status{
+    font-size: 15px;
+    color: azure; 
+}
